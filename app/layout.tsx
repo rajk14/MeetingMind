@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -32,7 +33,9 @@ export default function RootLayout({
       >
         <TooltipProvider>
           <div className="flex h-screen overflow-hidden">
-            <MeetingHistory />
+            <Suspense fallback={<div className="w-64 border-r border-border bg-card"></div>}>
+              <MeetingHistory />
+            </Suspense>
             <main className="flex-1 overflow-y-auto">
               {children}
             </main>
