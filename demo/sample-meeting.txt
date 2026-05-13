@@ -1,0 +1,59 @@
+Product Launch Sync: "Project Aether"
+Date: May 13, 2026
+Attendees: Sarah (Product), Mike (Engineering), Elena (Design), David (Marketing)
+
+Sarah: Hi everyone, let's dive into the final countdown for Project Aether. We're two weeks out from the launch date of June 1st. Mike, how's the stability on the backend?
+
+Mike: We've resolved the memory leak issue that was bugging us last week. The load tests show we can handle 50k concurrent users now. However, I'm still seeing some latency in the search results. I'll need to optimize the indexing by Thursday.
+
+Sarah: Okay, indexing optimization is a priority. David, what's the status of the marketing assets?
+
+David: The social media kit is 90% done. Elena just sent over the final renders this morning. I'll have the full campaign scheduled in Buffer by the end of this week. We're still missing the customer testimonial video from the early beta group, though.
+
+Elena: I actually spoke to them yesterday. They're finishing the edit today. I'll follow up with them tomorrow morning to make sure we get it. On the design side, the landing page layout is finished, but I need Mike to check if the new Lottie animations are too heavy for mobile performance.
+
+Mike: Send them over, Elena. I'll run a quick performance audit tomorrow afternoon.
+
+Sarah: Great. Let's make a decision on the early-bird pricing. We were debating between $49 and $59 for the first 48 hours.
+
+David: Given the competitor landscape, I strongly suggest $49. It creates a much stronger hook for initial conversion.
+
+Sarah: Elena, what do you think?
+
+Elena: Design-wise, the "$49" price point fits better in the hero section, but more importantly, our user testing showed a significant drop-off when we moved past $50.
+
+Sarah: Decision made: Early-bird pricing will be $49. David, update the landing page and the email sequences accordingly.
+
+David: Got it.
+
+Sarah: What about the Slack integration? Is that going in the V1?
+
+Elena: I think we should push it to V1.1. The current flow feels slightly clunky and I'd rather ship a polished core experience.
+
+Sarah: Mike, what's the dev effort if we keep it?
+
+Mike: It's about 3 days of work. If we drop it, we can spend that time on the search latency.
+
+Sarah: Okay, decision: Slack integration is deferred to V1.1. We'll focus that energy on performance.
+
+Elena: One open question: who's handling the legal review of the updated Terms of Service?
+
+Sarah: I'll check with the legal team today. I'm not sure if they've seen the latest draft.
+
+David: Also, we need to decide if we're doing a Product Hunt launch on Day 1 or Day 3.
+
+Sarah: Let's table that for the Friday sync. David, prepare a pro/con list for both options.
+
+Elena: I'll also need someone to write the copy for the help center articles.
+
+Sarah: I'll take a stab at the first three articles, but I might need Elena to help with screenshots next Tuesday.
+
+Elena: Sounds good.
+
+Sarah: Alright, let's recap. Mike's on search latency and Lottie audit. David's updating pricing and scheduling social. Elena's chasing the video. I'm on legal and copy. Anything else?
+
+Mike: Nope, I'm clear.
+
+David: All set.
+
+Sarah: Meeting adjourned.
